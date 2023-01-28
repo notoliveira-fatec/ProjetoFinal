@@ -1,0 +1,19 @@
+{{> base}}
+
+<h1>Olá, seja bem vindo ao projeto final!</h1>
+
+<br>
+
+<h3>Este projeto consiste em um projeto feito usando Node.JS com os frameworks Mustache e Express!</h3>
+
+<br>
+
+<h3>Para ir à página da grade, clique <a href="/grade">aqui</a></h3>
+
+<br>
+
+<h3>Para ir à página do histórico, clique <a href="/historico">aqui</a></h3>
+
+<br>
+
+<h5>Feito por Gustavo Oliveira!</h5>

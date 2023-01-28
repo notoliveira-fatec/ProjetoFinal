@@ -1,0 +1,26 @@
+{{> base}}
+
+<h1>Grade disciplinar - 2023/1</h1>
+
+<br>
+
+<table>
+  <tr>
+    <th>Disciplina</th>  
+    <th>Aulas por semana</th>
+  </tr>
+  {{#grade}}
+    <tr>
+      <td>{{materia}}</td>  
+      <td>{{as}}</td> 
+    </tr>
+  {{/grade}}
+</table>
+
+<br>
+
+<h3>Para ir à página home, clique <a href="/">aqui</a></h3>
+
+<h3>Para ir à página do histórico, clique <a href="/historico">aqui</a></h3>
+
+</body>

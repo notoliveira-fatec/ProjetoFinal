@@ -1,0 +1,24 @@
+{{> base}}
+
+<h1>Extrato histórico</h1>
+
+<br>
+
+<table>
+    <tr>
+      <th>Disciplina</th>  
+      <th>Período</th>
+      <th>Observação</th>
+    </tr>
+    {{#historico}}
+      <tr>
+        <td>{{materia}}</td>  
+        <td>{{periodo}}</td>
+        <td>{{observacao}}</td> 
+      </tr>
+    {{/historico}}
+  </table>
+
+<h3>Para ir à página home, clique <a href="/">aqui</a></h3>
+
+<h3>Para ir à página da grade, clique <a href="/grade">aqui</a></h3>
